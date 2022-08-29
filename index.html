@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Ritik Website</title>
+        <link rel="stylesheet" href="cool.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    </head>
+    <body>
+    <section class="home">
+            <nav>
+                <a href="index.html"><img src="img/RITIKLOGO-removebg-preview.png"></a>
+                <div class="links" id="navlinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">MY Games</a></li>
+                        <li><a href="">GAME DOWNLOAD</a></li>
+                        <li><a href="">DISCORD</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+        <div class="text-box">
+            <h1>Welcome To My Website</h1>
+         <p>This is my personal Website you can DOWNLOAD Games here in download page<br>you can do anything in my website
+                Join Discord for more info.
+          </p>
+          <a href="" class="hero-btn">Join Discord</a>
+        </div>
+        </section>
+
+<!------Game I Play------>
+
+<section class="games">
+       <h1>Games I Play</h1>
+       <P>In Harry's world fate works not only through powers and objects such as prophecies, the Sorting Hat, wands, and the Goblet of Fire, but also through people.</P>
+
+    <div class="row">
+        <div class="listgame">
+        <h3>Minecraft</h3>
+        <p>In Harry's world fate works not only through powers and objects such as prophecies,
+             the Sorting Hat, wands, and the Goblet of Fire, but also through people.</p>
+    </div>
+        <div class="listgame">
+        <h3>Gta V</h3>
+        <p>In Harry's world fate works not only through powers and objects such as prophecies,
+             the Sorting Hat, wands, and the Goblet of Fire, but also through people.</p>
+    </div>
+        <div class="listgame">
+        <h3>Fall Guys</h3>
+        <p>In Harry's world fate works not only through powers and objects such as prophecies, 
+            the Sorting Hat, wands, and the Goblet of Fire, but also through people.</p>
+    </div>
+    </div>
+
+</section>
+
+<!------About Game------>
+
+<section class="playgames">
+    <h1>About Games</h1>
+    <p>In Harry's world fate works not only through powers and objects such as prophecies, 
+        the Sorting Hat, wands, and the Goblet of Fire, but also through people.</p>
+
+        <div class="row">
+            <div class="gameplay">
+                <img src="img1/london.png" alt="">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="gameplay">
+                <img src="img1/washington.png" alt="">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+            <div class="gameplay">
+                <img src="img1/newyork.png" alt="">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+        </div>
+
+</section>
+
+
+
+<!------javascript for toggle menu----->
+
+
+        <script>
+
+            var navlinks = document.getElementById("navlinks");
+            function showmenu(){
+                navlinks.style.right = "0"
+            }
+            function hidemenu(){
+                navlinks.style.right = "-200px"
+            }
+
+        </script>
+
+    </body>
+</html>
