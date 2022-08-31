@@ -76,8 +76,8 @@ nav img{
     cursor: pointer;
 }
 .hero-btn:hover{
-    border: 1px solid rgb(125, 201, 255);
-    background: rgb(125, 201, 255);
+    border: 1px solid rgb(125,201,255);
+    background: rgb(125,201,255);
     transition: 1s;
 }
 nav .fa{
@@ -177,6 +177,7 @@ h3{
 }
 .gameplay img{
     width: 100%;
+    display: block;
 }
 .layer{
     background: transparent;
@@ -189,4 +190,97 @@ h3{
 }
 .layer:hover{
     background: rgba(226,0,0,0.7);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+/*-------gamewehave------*/
+
+.gamewehave {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.games-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.games-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.games-col p{
+    padding: 0;
+}
+.games-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/*------contact us----*/
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/assassins.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.cta h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+.hero2-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero2-btn:hover{
+    border: 1px solid rgb(212, 77, 62);
+    background: rgb(212,77,62);
+    transition: 1s;
+}
+    @media(max-width: 700px){
+        .cta h1{
+            font-size: 24px;
+        }
+    }
+
+/*-----------Footer-----------*/
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
 }
