@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Ritik Website</title>
+        <link rel="stylesheet" href="cool.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+<link    href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"    rel="stylesheet"  type='text/css'>
+    </head>
+    <body>
+    <section class="sub-home">
+            <nav>
+                <a href="index.html"><img src="img/RITIKLOGO-removebg-preview.png"></a>
+                <div class="links" id="navlinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="">MY Games</a></li>
+                        <li><a href="">GAME DOWNLOAD</a></li>
+                        <li><a href="">DISCORD</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+
+        </section>
+
+<!-------------about us content---------------->
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>We Are Providing All Games Around The World</h1>
+            <p>n Harry’s world fate works not only through powers and objects such as prophecies,
+                 the Sorting Hat, wands, and the Goblet of Fire, but also through people.
+                 Repeatedly, other characters decide Harry’s future for him, depriving him of freedom and choice.
+                 For example, before his eleventh birthday, the Dursleys control Harry’s life,
+                  keeping from him knowledge of his past and understanding of his identity (Sorcerer’s 49).
+                 In Harry Potter and the Chamber of Secrets,
+                 </p>
+                 <a href="" class="hero3-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="img/About.png" alt="">
+        </div>
+    </div>
+
+</section>
+
+<!---------------Footer-------------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>In Harry’s world fate works not only through powers and objects such as prophecies, 
+     the Sorting Hat, wands, and the Goblet of Fire, but also through people. <br> Repeatedly, 
+     other characters decide Harry’s future for him, depriving him of freedom and choice.</p>
+     <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+     </div>
+     <p>Made <i class="fa fa-heart-o"></i>By Ritik</p>
+</section>
+
+
+
+<!------javascript for toggle menu----->
+
+
+        <script>
+
+            var navlinks = document.getElementById("navlinks");
+            function showmenu(){
+                navlinks.style.right = "0"
+            }
+            function hidemenu(){
+                navlinks.style.right = "-200px"
+            }
+
+        </script>
+
+    </body>
+</html>
